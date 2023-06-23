@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hotr_flutter_basics/home.dart';
+import 'package:hotr_flutter_basics/payment_example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const HomeExample(),
+      home: const PaymentExample(),
     );
   }
 }
